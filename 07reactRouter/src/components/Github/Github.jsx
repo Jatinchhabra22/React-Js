@@ -18,10 +18,10 @@ function Github() {
     
 
   return (
-    <div className='text-center m-4 bg-gray-700 text-white text-3xl p-4'>
+    <div className=' flex flex-col items-center justify-center text-center m-4 bg-gray-700 text-white text-3xl p-4'>
         Github Followers : {data.followers}
 
-        <img src={data.avatar_url} alt="Git - pic"  width={300}/>
+        <img className='mt-10' src={data.avatar_url} alt="Git - pic"  width={300}/>
         </div>
   )
 }
